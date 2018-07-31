@@ -9,4 +9,4 @@ This is the Linear Algebra Course from Udacity - [Course Link](https://classroom
 
 
 ## Random notes:
-[Differences]() between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding
+[Differences](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/AI_ML_DL_Differences.md) between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding
