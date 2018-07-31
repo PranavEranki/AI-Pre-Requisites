@@ -40,7 +40,9 @@ Retinal Variables
 # Exploring and explaining the data
 
 ## Preprocess Data
-Extract the data from databases, csv files, etc. using tools like SQL or Web Scraping.
+Extract the data from databases, csv files, etc.
+
+Use tools like SQL or Web Scraping.
 
 Then, clean the data - account for missing or unlabeled data, fix formatting, remove unnecessary features, etc.
 
@@ -50,6 +52,7 @@ You can use
 * Histograms
 * Scatter Plots
 * Other graph tools
+
 To visualize your data
 
 ## Explaining the data
