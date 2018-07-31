@@ -1,4 +1,4 @@
-###Vectors
+### Vectors
 
 - Vectors used for test is video 4:
 ```python
@@ -98,7 +98,7 @@ w3 = Vector([-6.007, 0.124, 5.772])
 ```
 
 
-###Intersections
+### Intersections
 
 - Lines used for test is video 4:
 ```python

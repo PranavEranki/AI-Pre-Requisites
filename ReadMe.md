@@ -1,8 +1,9 @@
 # All Pre-Requisite learning files for AI in general
-# Contains :
+
 ## Linear Algebra
-[Linear Algebra Folder](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/LinearAlgebra)
-This is the Linear Algebra Course from Udacity. [Course](https://classroom.udacity.com/courses/ud953)
+This is the Linear Algebra Course from Udacity - [Course Link](https://classroom.udacity.com/courses/ud953). Here is the folder for the work done in it - [Folder Link](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/LinearAlgebra).
+
+
 ## Python Visualization tool (Tableau)
 [Tableau Folder]()
 
