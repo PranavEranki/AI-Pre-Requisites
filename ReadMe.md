@@ -5,7 +5,8 @@ This is the Linear Algebra Course from Udacity - [Course Link](https://classroom
 
 
 ## Python Visualization tool (Tableau)
-[Tableau Folder]()
+[Tableau Folder](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/Tableau).
+This is the folder containing notes and work from the [Data Visualization with Tableau Course on Udacity](https://classroom.udacity.com/courses/ud1006).
 
 
 ## Random notes:

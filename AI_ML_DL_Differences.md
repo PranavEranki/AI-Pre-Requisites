@@ -32,4 +32,4 @@ This is a subfield of ML which is concerned with algorithms based off the struct
 
 # Differences
 
-[This]() picture sums up the differences nicely.
+[This](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/images/ai_dl_ml.jpg) picture sums up the differences nicely.
