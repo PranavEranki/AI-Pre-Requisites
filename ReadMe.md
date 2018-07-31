@@ -5,3 +5,7 @@
 This is the Linear Algebra Course from Udacity. [Course](https://classroom.udacity.com/courses/ud953)
 ## Python Visualization tool (Tableau)
 [Tableau Folder]()
+
+
+## Random notes:
+[Differences]() between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding
