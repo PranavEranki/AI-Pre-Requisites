@@ -45,3 +45,12 @@ Extract the data from databases, csv files, etc. using tools like SQL or Web Scr
 Then, clean the data - account for missing or unlabeled data, fix formatting, remove unnecessary features, etc.
 
 ## Exploring the data
+You can use
+* Bar Graphs
+* Histograms
+* Scatter Plots
+* Other graph tools
+To visualize your data
+
+## Explaining the data
+Look through your data - find trends, reasons for trends, and document them. Explain methods used to arrive to your conclusions.
