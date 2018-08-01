@@ -141,3 +141,8 @@ Remove all chart junk
 # Data Integrity
 
 You want to make your data as truthful as possible in its representation. Use constant axis labeling and scale your pictures according to area to keep differences seeming more realistic.
+
+
+# Another cool article
+
+[Here](http://www.storytellingwithdata.com/blog/2014/01/multifaceted-data-and-story) is another interesting article referenced by Udacity, on multifaceted data and how it provides a story to the user - essentially how changing features of the data while keeping the data itself intact changes the way it is perceived.
