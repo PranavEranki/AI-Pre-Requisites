@@ -1,2 +1,3 @@
 # Basic Statistics
-## Derived from 'naked statistics', by Charles Wheelam
+
+This folder contains most of the important notes from Charles Wheelan's book, 'naked statistics'.
