@@ -9,5 +9,5 @@ This is the Linear Algebra Course from Udacity - [Course Link](https://classroom
 This is the folder containing notes and work from the [Data Visualization with Tableau Course on Udacity](https://classroom.udacity.com/courses/ud1006).
 
 
-## Random notes:
+## Other notes:
 [Differences](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/AI_ML_DL_Differences.md) between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding
