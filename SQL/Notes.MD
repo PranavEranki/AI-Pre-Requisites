@@ -18,3 +18,7 @@ Here is a little command [cheat-sheet](http://www.zentut.com/wp-content/uploads/
 * AVG
 * ROUND( ____,decimal places)
 * HAVING (like where, but with group by - targets rows)
+
+
+## Operators
+
