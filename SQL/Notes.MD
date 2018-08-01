@@ -2,17 +2,22 @@ Here is a little command [cheat-sheet](http://www.zentut.com/wp-content/uploads/
 
 ## Commands list
 
+SELECT
 * SELECT
 * SELECT DISTINCT - unique values only
 * SELECT WHERE - conditional
+
+AGGREGATE FUNCTIONS
 * COUNT - count(____) - displays # of rows
-* LIMIT - max rows displayed
-* ORDER BY - column(s), asc/desc
-* GROUP BY - groups rows by an aggregate function
 * MIN
 * MAX
 * SUM
 * AVG
+
+OTHER FUNCTIONS
+* LIMIT - max rows displayed
+* ORDER BY - column(s), asc/desc
+* GROUP BY - groups rows by an aggregate function
 * ROUND( ____,decimal places)
 * HAVING (like where, but with group by - targets rows)
 
