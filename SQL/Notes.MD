@@ -8,9 +8,6 @@ Here is a little command [cheat-sheet](http://www.zentut.com/wp-content/uploads/
 * COUNT - count(____) - displays # of rows
 * LIMIT - max rows displayed
 * ORDER BY - column(s), asc/desc
-* BETWEEN - range
-* IN - parentheses of values(array)
-* LIKE - string
 * GROUP BY - groups rows by an aggregate function
 * MIN
 * MAX
@@ -20,5 +17,13 @@ Here is a little command [cheat-sheet](http://www.zentut.com/wp-content/uploads/
 * HAVING (like where, but with group by - targets rows)
 
 
-## Operators
-
+## WHERE Operators
+'='	- Equal
+'<>' - Not equal. Note: In some versions of SQL this operator may be written as !=
+'>' - Greater than
+'<' - Less than
+'>=' - Greater than or equal
+'<=' - Less than or equal
+'BETWEEN' - Between an inclusive range
+'LIKE' - Search for a pattern
+'IN' - To specify multiple possible values for a column
