@@ -10,12 +10,15 @@ This is the folder containing notes and work from the [Data Visualization with T
 
 
 ## Statistics basics
-From *naked statistics* by Charles Wheelam, I made some simple [notes](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/Statistics%20Basics/Notes.MD).
+From *naked statistics* by Charles Wheelan, I made some simple [notes](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/Statistics%20Basics/Notes.MD).
 
 
 ## SQL Basics
-From a course on udemy and some personal projects, I compiled a small [list](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/SQL/Notes.MD) of SQL Notes.
+From a course on Udemy and some personal projects, I compiled a small [list](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/SQL/Notes.MD) of SQL Notes.
 
+
+## EDA
+Some simple notes and stuff about [EDA]()
 
 ## Other notes:
 [Differences](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/AI_ML_DL_Differences.md) between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding.
