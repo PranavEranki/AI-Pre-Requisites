@@ -18,7 +18,7 @@ From a course on Udemy and some personal projects, I compiled a small [list](htt
 
 
 ## EDA
-Some simple notes and stuff about [EDA]()
+Some simple notes and stuff about [EDA](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/EDA)
 
 ## Other notes:
 [Differences](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/AI_ML_DL_Differences.md) between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding.
