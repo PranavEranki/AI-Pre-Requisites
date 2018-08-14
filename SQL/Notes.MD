@@ -33,3 +33,14 @@ OTHER FUNCTIONS
 * 'BETWEEN' - Between an inclusive range
 * 'LIKE' - Search for a pattern
 * 'IN' - To specify multiple possible values for a column
+
+## Joins
+Inner joins - multiple tables, getting data from both:
+Select columns in both tables from main table, join on secondary table based on some attributes.
+
+
+SELECT tablename.column, tablename2.column, etc
+
+FROM tablename
+
+INNER JOIN tablename2 ON tablename.column = tablename2.column;
