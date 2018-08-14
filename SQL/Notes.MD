@@ -20,6 +20,7 @@ OTHER FUNCTIONS
 * GROUP BY - groups rows by an aggregate function
 * ROUND( ____,decimal places)
 * HAVING (like where, but with group by - targets rows)
+* AS - returns something as another name - think of it as renaming
 
 
 ## WHERE Operators
