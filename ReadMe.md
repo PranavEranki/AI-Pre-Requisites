@@ -10,7 +10,7 @@ This is the folder containing notes and work from the [Data Visualization with T
 
 
 ## Statistics basics
-From *naked statistics* by Charles Wheelan, I made some simple [notes](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/Statistics%20Basics/Notes.MD).
+From *naked statistics* by Charles Wheelan, along with Crash Course Statistics, I made some notes in the [Statistics Folder](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/Statistics%20Basics).
 
 
 ## SQL Basics
