@@ -22,3 +22,5 @@ Some simple notes and stuff about [EDA](https://github.com/PranavEranki/AI-Pre-R
 
 ## Other notes:
 [Differences](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/AI_ML_DL_Differences.md) between Artificial Intelligence, Machine Learning, and Deep Learning, from my own understanding.
+
+There are also some [notes]() on some different jobs in the AI field, and some differences among them. 
