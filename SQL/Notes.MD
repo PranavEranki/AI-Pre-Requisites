@@ -45,10 +45,16 @@ INNER JOIN tablename2 ON tablename.column = tablename2.column;
 __Full Outer Join__ - produces all the data from both tables, merging similar values and putting null for the missing side if there is no match.
 Returns absolutely everything
 
-__Left Outer Join__ - gaurantees that you get all the columns from table a, the left table, and if there is a match for table b, the right table, it will put those values - all values which are null will be filled in as null. In other words, it produces a complete set of records from Table A, with matching records from B where available.
+__Left Outer Join__ - guarantees that you get all the columns from table a, the left table, and if there is a match for table b, the right table, it will put those values - all values which are null will be filled in as null. In other words, it produces a complete set of records from Table A, with matching records from B where available.
 
 __Right Outer Join__ - same as left outer join, but for the right table(table b).
 
 You can also use __WHERE__ statements with these joins. Some possible use cases could be:
 * ... join... on... WHERE tableB.attribute IS null -- This returns values only in Table A. Can be changed for tableB only.
 * Full outer join on both tables, where either attribute is null, so you get only the unique values from both tables. Ex: SELECT... JOIN... ON... WHERE tableA.attribute IS null OR tableB.attribute IS null
+
+## Union Statement
+
+Combines result sets of two or more select statements into a single result set. All select queries must return the same number of columns and be of the same data type(ex int, float, string, etc.)
+
+Removes all duplicate rows(Unless you use UNION ALL) and can be used with ORDER BY to sort results.
