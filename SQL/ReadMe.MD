@@ -1,6 +1,6 @@
 # Some Basic SQL Notes
 
-This folder contains some notes on SQL.
+This folder contains some notes on SQL. I used PostgreSQL for all my notes, projects, and more.
 
 Here is a little command [cheat-sheet](http://www.zentut.com/wp-content/uploads/2012/10/sqlcheatsheet.jpg) right here for reference. This cheat-sheet does not contain all the commands, but it is convenient.
 
