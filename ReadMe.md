@@ -1,4 +1,4 @@
-# All Pre-Requisite learning files for AI in general
+# All  learning files for AI pre-requisites
 
 ## Linear Algebra
 This is the Linear Algebra Course from Udacity - [Course Link](https://classroom.udacity.com/courses/ud953). Here is the folder for the work done in it - [Folder Link](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/LinearAlgebra).
