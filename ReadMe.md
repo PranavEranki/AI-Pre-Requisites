@@ -14,7 +14,7 @@ From *naked statistics* by Charles Wheelan, along with Crash Course Statistics, 
 
 
 ## SQL Basics
-From a course on Udemy and some personal projects, I compiled a small [list](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/SQL/Notes.MD) of SQL Notes.
+From a course on Udemy and some personal projects, I compiled a [list](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/SQL/Notes.MD) of SQL Notes. Contains some syntax, usages, and commands.
 
 
 ## EDA
