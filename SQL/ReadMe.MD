@@ -13,8 +13,7 @@ Some covered topics:
 * Joins, Unions
 * Select statements
 * Extract statements
-* Operators and mathematical functions
-* String functions
+* Mathematical functions, string functions
 * Subqueries
 * Data types
 * Creating a table
