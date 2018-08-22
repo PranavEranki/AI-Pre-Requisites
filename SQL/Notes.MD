@@ -151,8 +151,10 @@ If, when inserting, you do not put data for columns which accept null, the table
 
 ## The Update Statement
 
-This statement is used to change the values of columns in a table.
+This statement is used to change the values of all rows in columns in a table.
 
-Syntax example : UPDATE table SET column1 = value1, column2 = value2, ...;
+Syntax example : UPDATE table_name SET column1 = value1, column2 = value2, ...;
 
-Or, you could do it with a where statement: UPDATE table SET column1 = value1, column2 = value2, ... WHERE condition;
+The above syntax sets the values 
+
+Or, you could do it with a where statement to update only certain columns of the table: UPDATE table SET column1 = value1, column2 = value2, ... WHERE condition;
