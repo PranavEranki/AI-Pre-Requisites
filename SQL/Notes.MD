@@ -109,3 +109,14 @@ You need to use aliases when using a self-join. To further define how this code 
 You could also do the same query using an inner join, left join, or right join, and then just calling the same table as a second table. This may not make sense for all cases.
 
 This tactic is also more efficient than using sub-queries.
+
+## Data Types
+
+* Boolean
+* Characters : fixed length character strings - char(n), or Variable length character strings - varchar(n)
+* Number : small int, int, serial - automatically populating, float(n), real or float8, numeric(p,s) - for exact
+* Temporal : date, time, timestamp, interval, timestamps
+
+## Primary/Foreign Keys
+* A Primary key is a column / group of columns that is used to uniquely identify a row in a table. They are defined through primary key constraints. A table can have only 1 primary key.
+* Foreign key - a field / group of fields in one table which happens to be the primary key of another. The table that contains the foreign key is called the referencing table, and the table which the foreign key references is called the referenced table. A table can have multiple foreign keys. You need a foreign constraint to define this foreign key.
