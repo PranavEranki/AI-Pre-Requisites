@@ -155,6 +155,17 @@ This statement is used to change the values of all rows in columns in a table.
 
 Syntax example : UPDATE table_name SET column1 = value1, column2 = value2, ...;
 
-The above syntax sets the values 
+The above syntax sets the values
 
 Or, you could do it with a where statement to update only certain columns of the table: UPDATE table SET column1 = value1, column2 = value2, ... WHERE condition;
+
+You can set column values to other column values, you can use like statements, etc.
+
+## The returning statement
+
+Used with update.
+At the end of your update statement(after the where statement if present) you can put
+
+RETURNING __ , __ , __ , etc
+
+This statement returns the attributes specified in the returning statement which belong to all the rows which were modified by your update statement.
