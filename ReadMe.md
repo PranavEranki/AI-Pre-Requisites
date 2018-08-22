@@ -1,4 +1,4 @@
-# All Pre-Requisite learning files for AI in general
+# All  learning files for AI pre-requisites
 
 ## Linear Algebra
 This is the Linear Algebra Course from Udacity - [Course Link](https://classroom.udacity.com/courses/ud953). Here is the folder for the work done in it - [Folder Link](https://github.com/PranavEranki/AI-Pre-Requisites/tree/master/LinearAlgebra).
@@ -14,7 +14,7 @@ From *naked statistics* by Charles Wheelan, along with Crash Course Statistics, 
 
 
 ## SQL Basics
-From a course on Udemy and some personal projects, I compiled a small [list](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/SQL/Notes.MD) of SQL Notes.
+From a course on Udemy and some personal projects, I compiled a [list](https://github.com/PranavEranki/AI-Pre-Requisites/blob/master/SQL/Notes.MD) of SQL Notes. Contains some syntax, usages, and commands.
 
 
 ## EDA
