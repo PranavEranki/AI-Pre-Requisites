@@ -126,3 +126,25 @@ This tactic is also more efficient than using sub-queries.
 CREATE TABLE table_name(column_name DATA_TYPE column_constraint, table_constraint) INHERTIS existing_table
 
 Column Constraints - NOT NULL, UNIQUE, CHECK, PRIMARY KEY
+
+Or, you could copy the structure(but not the data) of another table by doing:
+
+CREATE TABLE table_copy (LIKE table);
+
+## Inserting rows into a table
+
+The command INSERT is used to insert rows into the table.
+
+INSERT INTO table_name(column1, column2, ...) VALUES (value1, value2, ...);
+
+Note : You can leave these null, but only if that column accepts null values
+
+Toadd multiple rows, do INSERT INTO ... VALUES (value1, value2, ...), VALUES (value1, value2, ...), ... ;
+
+To insert data that comes from another table, use the INSERT INTO SELECT statement:
+
+INSERT INTO table_name SELECT column 1, column2, ... FROM another_table WHERE ...;
+
+Note : The where statement can be left removed.
+
+If, when inserting, you do not put data for columns which accept null, the table will set null as a default value for all future insertions which lack that column. You can also set the default value of a column,
