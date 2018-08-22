@@ -148,3 +148,11 @@ INSERT INTO table_name SELECT column 1, column2, ... FROM another_table WHERE ..
 Note : The where statement can be left removed.
 
 If, when inserting, you do not put data for columns which accept null, the table will set null as a default value for all future insertions which lack that column. You can also set the default value of a column,
+
+## The Update Statement
+
+This statement is used to change the values of columns in a table.
+
+Syntax example : UPDATE table SET column1 = value1, column2 = value2, ...;
+
+Or, you could do it with a where statement: UPDATE table SET column1 = value1, column2 = value2, ... WHERE condition;
