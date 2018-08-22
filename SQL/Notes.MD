@@ -120,3 +120,9 @@ This tactic is also more efficient than using sub-queries.
 ## Primary/Foreign Keys
 * A Primary key is a column / group of columns that is used to uniquely identify a row in a table. They are defined through primary key constraints. A table can have only 1 primary key.
 * Foreign key - a field / group of fields in one table which happens to be the primary key of another. The table that contains the foreign key is called the referencing table, and the table which the foreign key references is called the referenced table. A table can have multiple foreign keys. You need a foreign constraint to define this foreign key.
+
+## Creating a table
+
+CREATE TABLE table_name(column_name DATA_TYPE column_constraint, table_constraint) INHERTIS existing_table
+
+Column Constraints - NOT NULL, UNIQUE, CHECK, PRIMARY KEY
