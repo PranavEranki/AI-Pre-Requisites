@@ -229,3 +229,31 @@ If you were to pass that column a null value, you are throws an error.
 Sometimes, you want to make sure a value(for example, name, email, etc) is unique is across all the values for that column, you can pass that column the UNIQUE constraint.
 
 If a non-unique value is passed, an error is thrown.
+
+## Views
+A view is a database object that is of a stored query.
+Can be accessible as a virtual table in postgreSQL.
+
+A view helps simplify the complexity of a query because you can query a view, which is based on a complex query, using a simple SELECT statement
+
+Some more complex SQL join and select queries are used frequently, quite long, and annoying to keep typing out. That is where we can create a view to aid in the join/select queries.
+
+To create a view, in the front of your huge select/join statement, put
+
+CREATE VIEW view_name AS
+
+and then follow the AS with your whole statement you previously used.
+
+For example :
+
+CREATE VIEW customer_info AS SELECT first_name, last_name FROM customer JOIN address ...
+
+Etc, etc - this syntax helps
+
+Now that you have finished and saved it, do : SELECT * FROM view_name to run the view and see the query.
+
+To rename a view, do: ALTER VIEW original_view_name RENAME TO new_view_name;
+
+To delete a view, do : DROP VIEW view_name;
+
+You can use IF EXISTS with creating views too to avoid any possible errors.

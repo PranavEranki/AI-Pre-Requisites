@@ -17,4 +17,11 @@ Some covered topics:
 * Subqueries
 * Data types
 * Creating a table
-* Editing a table (update, insert, etc.)
+* Editing a table (update, insert, alter, etc)
+* Different constraints (Unique, check, etc)
+* Views
+
+
+# SQL in python notes
+
+For the notes which show how to use python w/ postgreSQL, go to the file pythonWithSQL.MD
