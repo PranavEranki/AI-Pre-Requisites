@@ -215,3 +215,17 @@ A kind of constraint which allows you to specify if a value in a column must mee
 You use the CHECK constraint when creating a table, and pass some expression into the parentheses.  
 
 If the inserted row fails the constraint, it throws an error.
+
+## NOT NULL constraint
+
+Null is different from 0, an empty string, or empty value - we just don't know the value.
+
+This constraint is used to enforce a column which cannot accept Null.
+
+If you were to pass that column a null value, you are throws an error.
+
+## UNIQUE constraint
+
+Sometimes, you want to make sure a value(for example, name, email, etc) is unique is across all the values for that column, you can pass that column the UNIQUE constraint.
+
+If a non-unique value is passed, an error is thrown.
