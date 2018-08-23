@@ -1,30 +1,30 @@
 First, you want to import.
 
-import psycopg2 as pg2
+*import psycopg2 as pg2*
 
 Now, connect to your database. This assumes you use default settings
 
-conn = pg2.connect(database = 'database_name', user = 'postgres')
+*conn = pg2.connect(database = 'database_name', user = 'postgres')*
 
 We now need to retrieve the cursor, which allows for SQL data retrieval.
 
-cur = conn.cursor
+*cur = conn.cursor*
 
 Now, we can execute SQL queries as wanted - replace 'Query' with a string which contains your query in SQL.
 
-cur.execute('Query')
+*cur.execute('Query')*
 
 Now, if your query worked, you can do these commands to fetch some of the returned data:
 
-cur.fetchall()
+*cur.fetchall()*
 
-cur.fetchone()
+*cur.fetchone()*
 
-cur.fetchmany(n) # How many values we want to fetch
+*cur.fetchmany(n)* # How many values we want to fetch
 
 When you are all done, do:
 
-conn.close()
+*conn.close()*
 
 to terminate the connection to the database.
 
