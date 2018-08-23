@@ -169,3 +169,49 @@ At the end of your update statement(after the where statement if present) you ca
 RETURNING __ , __ , __ , etc
 
 This statement returns the attributes specified in the returning statement which belong to all the rows which were modified by your update statement.
+
+## Delete statement
+
+Used to delete rows in a table.
+
+Syntax :
+DELETE FROM table_name WHERE condition
+
+The Where clause is used to select what rows you want to delete - without this clause, all the rows are deleted.
+
+This clause also returns the number of statements deleted - if none are deleted, returns 0.
+
+To get back the actual rows that were deleted, you could add a RETURNING statement at the end, with either the columns you want deleted, or a * to get all the columns of the deleted rows back.
+
+## Alter Table statement
+
+This statement is used to change existing table structure
+
+To add a column : ALTER TABLE table_name ADD COLUMN column_name datatype;
+
+To drop a column : ALTER TABLE table_name DROP COLUMN column_name;
+
+To rename a column : ALTER TABLE table_name RENAME column_name TO new_name;
+
+To rename the entire table : ALTER TABLE table_name RENAME TO new_name
+
+## Drop Table statement
+
+To drop a table, the statement is fairly simple
+
+DROP TABLE IF EXISTS table_name
+
+The IF EXISTS piece is there to prevent errors incase the table does not exist.
+
+There is a keyword which is automatically applied to your query called RESTRICT.
+This is a keyword which tells SQL not to delete the table if any other tables are dependent on it.
+
+If you put in the keyword CASCADE at the end of the query then you delete the table and all of its dependencies, so be careful.
+
+## Check constraint
+
+A kind of constraint which allows you to specify if a value in a column must meet a specific requirement. It uses a boolean expression to evaluate the values of a column. If the values pass the check, SQL will insert/update those values.
+
+You use the CHECK constraint when creating a table, and pass some expression into the parentheses.  
+
+If the inserted row fails the constraint, it throws an error.
