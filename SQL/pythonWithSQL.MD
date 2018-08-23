@@ -18,7 +18,7 @@ Now, if your query worked, you can do these commands to fetch some of the return
 
 *cur.fetchall()*
 
-*cur.fetchone()*
+*cur.fetchnone()*
 
 *cur.fetchmany(n)* # How many values we want to fetch
 
